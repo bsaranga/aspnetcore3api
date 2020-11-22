@@ -1,14 +1,11 @@
 trigger:
- branches:
-  include:
-    - main
- paths:
-   include:
-     - CommandAPISolution/*
+ - main
+
 pool: 
   vmImage: 'ubuntu-latest'
 variables:
   buildConfiguration: 'Release'
+  workingDirectory: '$(Build.SourcesDirectory)/CommandAPISolution'
 steps:
   - task: UseDotNet@2
   - script: dotnet build --configuration $(buildConfiguration)
