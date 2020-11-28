@@ -9,6 +9,9 @@ using Microsoft.Extensions.Logging;
 
 namespace CommandAPI
 {
+    /// <summary>
+    /// Entry file
+    /// </summary>
     public class Program
     {
         public static void Main(string[] args)
