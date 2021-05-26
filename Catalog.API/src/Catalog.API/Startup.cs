@@ -12,7 +12,6 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
-using Microsoft.EntityFrameworkCore;
 using Catalog.API.Extensions;
 
 namespace Catalog.API
@@ -29,7 +28,7 @@ namespace Catalog.API
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddCatalogContext();
+            services.AddCatalogContext(Configuration.GetSection("ConnectionStrings:Default").Value);
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
