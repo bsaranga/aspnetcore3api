@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catalog.Domain", "src\Catal
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catalog.Infrastructure", "src\Catalog.Infrastructure\Catalog.Infrastructure.csproj", "{CA40F80A-85EB-4B15-8E29-26EFE9CD00BD}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{572C95D5-2C76-420A-95CC-1057B9E1F95A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catalog.Infrastructure.Tests", "tests\Catalog.Infrastructure.Tests\Catalog.Infrastructure.Tests.csproj", "{5AD268D6-C1DF-4778-B0D1-F290D3FFB909}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -60,10 +64,23 @@ Global
 		{CA40F80A-85EB-4B15-8E29-26EFE9CD00BD}.Release|x64.Build.0 = Release|Any CPU
 		{CA40F80A-85EB-4B15-8E29-26EFE9CD00BD}.Release|x86.ActiveCfg = Release|Any CPU
 		{CA40F80A-85EB-4B15-8E29-26EFE9CD00BD}.Release|x86.Build.0 = Release|Any CPU
+		{5AD268D6-C1DF-4778-B0D1-F290D3FFB909}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AD268D6-C1DF-4778-B0D1-F290D3FFB909}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AD268D6-C1DF-4778-B0D1-F290D3FFB909}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{5AD268D6-C1DF-4778-B0D1-F290D3FFB909}.Debug|x64.Build.0 = Debug|Any CPU
+		{5AD268D6-C1DF-4778-B0D1-F290D3FFB909}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{5AD268D6-C1DF-4778-B0D1-F290D3FFB909}.Debug|x86.Build.0 = Debug|Any CPU
+		{5AD268D6-C1DF-4778-B0D1-F290D3FFB909}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AD268D6-C1DF-4778-B0D1-F290D3FFB909}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AD268D6-C1DF-4778-B0D1-F290D3FFB909}.Release|x64.ActiveCfg = Release|Any CPU
+		{5AD268D6-C1DF-4778-B0D1-F290D3FFB909}.Release|x64.Build.0 = Release|Any CPU
+		{5AD268D6-C1DF-4778-B0D1-F290D3FFB909}.Release|x86.ActiveCfg = Release|Any CPU
+		{5AD268D6-C1DF-4778-B0D1-F290D3FFB909}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{11A8418D-C235-4C4B-A603-8AA81BE69879} = {E54F60A0-0F98-4B4A-A82C-D64F6874420D}
 		{51101036-7118-4A04-B2D6-0D7816F62F1D} = {E54F60A0-0F98-4B4A-A82C-D64F6874420D}
 		{CA40F80A-85EB-4B15-8E29-26EFE9CD00BD} = {E54F60A0-0F98-4B4A-A82C-D64F6874420D}
+		{5AD268D6-C1DF-4778-B0D1-F290D3FFB909} = {572C95D5-2C76-420A-95CC-1057B9E1F95A}
 	EndGlobalSection
 EndGlobal
