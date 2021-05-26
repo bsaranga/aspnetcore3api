@@ -21,6 +21,8 @@ namespace Catalog.Infrastructure
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.ApplyConfiguration(new ItemEntitySchemaDefinition());
+            modelBuilder.ApplyConfiguration(new ArtistEntitySchemaDefinition());
+            modelBuilder.ApplyConfiguration(new GenreEntitySchemaDefinition());
             base.OnModelCreating(modelBuilder);
         }
         public async Task<bool> SaveEntitiesAsync(CancellationToken cancellationToken = default)
